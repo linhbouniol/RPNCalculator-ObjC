@@ -13,6 +13,8 @@
 		3903500921669F4400A249E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3903500721669F4400A249E3 /* LaunchScreen.storyboard */; };
 		3903500C21669F4400A249E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3903500B21669F4400A249E3 /* main.m */; };
 		390350182166A6BE00A249E3 /* LTBCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 390350172166A6BE00A249E3 /* LTBCalculatorViewController.m */; };
+		3903501D2166AF4600A249E3 /* LTBStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 3903501C2166AF4600A249E3 /* LTBStack.m */; };
+		390350202166BD0900A249E3 /* LTBCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3903501F2166BD0900A249E3 /* LTBCalculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		3903500B21669F4400A249E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		390350162166A6BE00A249E3 /* LTBCalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTBCalculatorViewController.h; sourceTree = "<group>"; };
 		390350172166A6BE00A249E3 /* LTBCalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTBCalculatorViewController.m; sourceTree = "<group>"; };
+		3903501B2166AF4600A249E3 /* LTBStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTBStack.h; sourceTree = "<group>"; };
+		3903501C2166AF4600A249E3 /* LTBStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTBStack.m; sourceTree = "<group>"; };
+		3903501E2166BD0900A249E3 /* LTBCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTBCalculator.h; sourceTree = "<group>"; };
+		3903501F2166BD0900A249E3 /* LTBCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTBCalculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,8 @@
 			isa = PBXGroup;
 			children = (
 				3903501521669F6B00A249E3 /* App Lifecycle */,
+				390350192166AF1600A249E3 /* Model */,
+				3903501A2166AF1C00A249E3 /* Model Controller */,
 				3903501221669F4B00A249E3 /* View Controllers */,
 				3903501321669F5300A249E3 /* Storyboards */,
 				3903501421669F5E00A249E3 /* Resources */,
@@ -101,6 +109,24 @@
 				39034FFD21669F4300A249E3 /* AppDelegate.m */,
 			);
 			path = "App Lifecycle";
+			sourceTree = "<group>";
+		};
+		390350192166AF1600A249E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3903501B2166AF4600A249E3 /* LTBStack.h */,
+				3903501C2166AF4600A249E3 /* LTBStack.m */,
+				3903501E2166BD0900A249E3 /* LTBCalculator.h */,
+				3903501F2166BD0900A249E3 /* LTBCalculator.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3903501A2166AF1C00A249E3 /* Model Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,7 +201,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				390350182166A6BE00A249E3 /* LTBCalculatorViewController.m in Sources */,
+				3903501D2166AF4600A249E3 /* LTBStack.m in Sources */,
 				3903500C21669F4400A249E3 /* main.m in Sources */,
+				390350202166BD0900A249E3 /* LTBCalculator.m in Sources */,
 				39034FFE21669F4300A249E3 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
