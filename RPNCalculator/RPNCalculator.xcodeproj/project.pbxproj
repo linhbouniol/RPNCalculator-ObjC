@@ -8,24 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		39034FFE21669F4300A249E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39034FFD21669F4300A249E3 /* AppDelegate.m */; };
-		3903500121669F4300A249E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3903500021669F4300A249E3 /* ViewController.m */; };
 		3903500421669F4300A249E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3903500221669F4300A249E3 /* Main.storyboard */; };
 		3903500621669F4400A249E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3903500521669F4400A249E3 /* Assets.xcassets */; };
 		3903500921669F4400A249E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3903500721669F4400A249E3 /* LaunchScreen.storyboard */; };
 		3903500C21669F4400A249E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3903500B21669F4400A249E3 /* main.m */; };
+		390350182166A6BE00A249E3 /* LTBCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 390350172166A6BE00A249E3 /* LTBCalculatorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		39034FF921669F4300A249E3 /* RPNCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPNCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39034FFC21669F4300A249E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		39034FFD21669F4300A249E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		39034FFF21669F4300A249E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3903500021669F4300A249E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3903500321669F4300A249E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3903500521669F4400A249E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3903500821669F4400A249E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3903500A21669F4400A249E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3903500B21669F4400A249E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		390350162166A6BE00A249E3 /* LTBCalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTBCalculatorViewController.h; sourceTree = "<group>"; };
+		390350172166A6BE00A249E3 /* LTBCalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTBCalculatorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,8 +69,8 @@
 		3903501221669F4B00A249E3 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				39034FFF21669F4300A249E3 /* ViewController.h */,
-				3903500021669F4300A249E3 /* ViewController.m */,
+				390350162166A6BE00A249E3 /* LTBCalculatorViewController.h */,
+				390350172166A6BE00A249E3 /* LTBCalculatorViewController.m */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -129,6 +129,7 @@
 		39034FF121669F4300A249E3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LTB;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "Linh Bouniol";
 				TargetAttributes = {
@@ -173,7 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3903500121669F4300A249E3 /* ViewController.m in Sources */,
+				390350182166A6BE00A249E3 /* LTBCalculatorViewController.m in Sources */,
 				3903500C21669F4400A249E3 /* main.m in Sources */,
 				39034FFE21669F4300A249E3 /* AppDelegate.m in Sources */,
 			);
