@@ -15,6 +15,7 @@
 		390350182166A6BE00A249E3 /* LTBCalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 390350172166A6BE00A249E3 /* LTBCalculatorViewController.m */; };
 		3903501D2166AF4600A249E3 /* LTBStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 3903501C2166AF4600A249E3 /* LTBStack.m */; };
 		390350202166BD0900A249E3 /* LTBCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3903501F2166BD0900A249E3 /* LTBCalculator.m */; };
+		390350232166DA3A00A249E3 /* LTBDigitAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 390350222166DA3A00A249E3 /* LTBDigitAccumulator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		3903501C2166AF4600A249E3 /* LTBStack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTBStack.m; sourceTree = "<group>"; };
 		3903501E2166BD0900A249E3 /* LTBCalculator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTBCalculator.h; sourceTree = "<group>"; };
 		3903501F2166BD0900A249E3 /* LTBCalculator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTBCalculator.m; sourceTree = "<group>"; };
+		390350212166DA3A00A249E3 /* LTBDigitAccumulator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTBDigitAccumulator.h; sourceTree = "<group>"; };
+		390350222166DA3A00A249E3 /* LTBDigitAccumulator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTBDigitAccumulator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +69,6 @@
 			children = (
 				3903501521669F6B00A249E3 /* App Lifecycle */,
 				390350192166AF1600A249E3 /* Model */,
-				3903501A2166AF1C00A249E3 /* Model Controller */,
 				3903501221669F4B00A249E3 /* View Controllers */,
 				3903501321669F5300A249E3 /* Storyboards */,
 				3903501421669F5E00A249E3 /* Resources */,
@@ -118,15 +120,10 @@
 				3903501C2166AF4600A249E3 /* LTBStack.m */,
 				3903501E2166BD0900A249E3 /* LTBCalculator.h */,
 				3903501F2166BD0900A249E3 /* LTBCalculator.m */,
+				390350212166DA3A00A249E3 /* LTBDigitAccumulator.h */,
+				390350222166DA3A00A249E3 /* LTBDigitAccumulator.m */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		3903501A2166AF1C00A249E3 /* Model Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "Model Controller";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -205,6 +202,7 @@
 				3903500C21669F4400A249E3 /* main.m in Sources */,
 				390350202166BD0900A249E3 /* LTBCalculator.m in Sources */,
 				39034FFE21669F4300A249E3 /* AppDelegate.m in Sources */,
+				390350232166DA3A00A249E3 /* LTBDigitAccumulator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
