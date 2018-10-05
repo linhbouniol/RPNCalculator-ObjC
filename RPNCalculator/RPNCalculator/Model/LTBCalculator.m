@@ -22,6 +22,16 @@
 
 @implementation LTBCalculator
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        _stack = [[LTBStack alloc] init]; // the init here will call on the regular init in LTBStack, which then calls on the initWithArray, and set up the internal property (values)
+    }
+    return self;
+}
+
+
 //@synthesize topValue = _topValue;
 
 - (double)topValue
