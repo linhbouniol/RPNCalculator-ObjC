@@ -124,7 +124,8 @@ In Swift version, we need to check to make sure the values are not nil, but in O
 
 - (BOOL)textFieldShouldClear:(UITextField *)textField
 {
-    // clear calculator
+    [self.calculator clear];
+    [self.digitAccumulator clear];
 
     return YES;
 }
